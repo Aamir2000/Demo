@@ -4,8 +4,8 @@
 let dropdown = document.querySelectorAll("#dropdown")[0];
 
 
-// This will add a event listener on the drop down itself to listen for clicks
-dropdown.addEventListener("click", val => {
+// This will add a event listener on the drop down itself to listen for change
+dropdown.addEventListener("change", val => {
 
     // this will remove all the existing items in the area where the items will be displayed
     document.getElementById("products").innerHTML = "";
