@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+select{
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 0px 15px;
+    text-align: center;
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#products{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 50%;
+    padding: 15px;
+}
+.card *{
+    margin: 5px 0px;
+}
+.card img{
+    width: 100%;
+}
+.card h3 {
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.card p {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
